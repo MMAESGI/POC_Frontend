@@ -1,7 +1,7 @@
 <template>
     <div class="event">
         <div class="image">
-            <img src="https://media.formula1.com/content/dam/fom-website/2018-redesign-assets/drivers/2025/lannor01.png.transform/2col/image.png"/>
+            <img src="https://media.formula1.com/image/upload/f_auto,c_limit,w_1440,q_auto/f_auto/q_auto/content/dam/fom-website/2018-redesign-assets/Racehub%20header%20images%2016x9/Bahrain"/>
         </div>
         <span class="location">Paris</span>
         <span class="eventname">Nom de l'évènement</span>
@@ -35,6 +35,8 @@
     }
 
     .image img {
+        height: 100%;
         width: 100%;
+        object-fit: cover;
     }
 </style>

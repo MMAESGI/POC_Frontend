@@ -18,11 +18,13 @@ import IconTooling from '../icons/IconTooling.vue';
     justify-content: space-between;
 }
 
-.navbar-actions > * {
+.navbar-actions > span {
   padding: 0 3%;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.navbar-actions > *:not(:last-child) {
+.navbar-actions > span:not(:last-child) {
     border-right: 1px solid grey;
 }
 </style>
